@@ -2,5 +2,5 @@
 - hosts: all    # 代表在所有主机执行
   remote_user: root #以root身份执行
   tasks:
-    - name: hello world #标签名
-      command: /usr/bin/wall hello world #执行的命令
+    - name: Check the date on Server #标签名
+      command: date #执行的命令

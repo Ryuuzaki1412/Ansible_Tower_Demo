@@ -4,3 +4,5 @@
   tasks:
     - name: Check the date on Server #标签名
       command: date #执行的命令
+    - name: Check the ip on Server #标签名
+      command: ifconfig ens192
